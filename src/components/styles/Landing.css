@@ -1,0 +1,107 @@
+.Container {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background: #ffffff;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+}
+
+.MenuBar {
+  position: absolute;
+  width: 1920px;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+  background: rgba(234, 226, 226, 0.3);
+  display: flex;
+}
+
+.MenuButons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 552px;
+  height: 43px;
+  left: 32px;
+  top: calc(50% - 43px / 2 - 487.5px);
+}
+
+.SidePanel {
+  position: absolute;
+  width: 725px;
+  height: 860px;
+  left: 1195px;
+  top: 65px;
+
+  background: rgba(138, 80, 184, 0.8);
+}
+
+.Image {
+  position: absolute;
+  width: 725px;
+  height: 826px;
+  left: 1195px;
+  top: 100px;
+}
+
+.Title {
+  position: absolute;
+  width: 550px;
+  height: 194px;
+  left: calc(50% - 550px / 2 - 387px);
+  top: calc(50% - 194px / 2 - 450px);
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 144px;
+  line-height: 197px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.Paragraph {
+  position: absolute;
+  width: 725px;
+  height: 268px;
+  left: 217px;
+  top: 300px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.Button {
+  position: absolute;
+  width: 196px;
+  height: 62px;
+  left: 481px;
+  top: 700px;
+  background: #8c30f5;
+  border-radius: 8px;
+}
+
+.Line {
+  position: absolute;
+  width: 738px;
+  height: 0px;
+  left: 204px;
+  top: 300px;
+
+  border: 1px solid #000000;
+}
