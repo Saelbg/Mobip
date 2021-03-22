@@ -1,23 +1,34 @@
 .Container {
   position: relative;
-  width: 1920px;
-  height: 1080px;
+  width: 1440px;
+  height: 1024px;
+
   background: #ffffff;
 
   font-family: Manrope;
   font-style: normal;
   font-weight: normal;
   color: #000000;
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width: 768px) {
+    width: 75%;
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width: 992px) {
+    width: 50%;
+  }
 }
 
 .MenuBar {
   position: absolute;
-  width: 1920px;
-  height: 65px;
+  width: 1440px;
+  height: 36px;
   left: 0px;
   top: 0px;
+
   background: rgba(234, 226, 226, 0.3);
-  display: flex;
 }
 
 .MenuButons {
@@ -35,34 +46,34 @@
 
 .SidePanel {
   position: absolute;
-  width: 725px;
-  height: 860px;
-  left: 1195px;
-  top: 65px;
+  width: 732px;
+  height: 988px;
+  left: 708px;
+  top: 36px;
 
   background: rgba(138, 80, 184, 0.8);
 }
 
 .Image {
   position: absolute;
-  width: 725px;
-  height: 826px;
-  left: 1195px;
-  top: 100px;
+  width: 732px;
+  height: 819px;
+  left: 708px;
+  top: 205px;
 }
 
 .Title {
   position: absolute;
-  width: 550px;
-  height: 194px;
-  left: calc(50% - 550px / 2 - 387px);
-  top: calc(50% - 194px / 2 - 450px);
+  width: 557px;
+  height: 150px;
+  left: calc(50% - 557px / 2 - 381.5px);
+  top: calc(50% - 150px / 2 - 264px);
 
   font-family: Manrope;
   font-style: normal;
   font-weight: bold;
-  font-size: 144px;
-  line-height: 197px;
+  font-size: 96px;
+  line-height: 131px;
   text-align: center;
   text-transform: uppercase;
 
@@ -71,17 +82,19 @@
 
 .Paragraph {
   position: absolute;
-  width: 725px;
-  height: 268px;
-  left: 217px;
-  top: 300px;
+  width: 482px;
+  height: 205px;
+  left: 98px;
+  top: 350px;
 
   font-family: Manrope;
   font-style: normal;
   font-weight: normal;
-  font-size: 36px;
-  line-height: 49px;
-  text-align: center;
+  font-size: 24px;
+  line-height: 37px;
+  /* or 154% */
+
+  text-align: justify;
   text-transform: uppercase;
 
   color: #000000;
@@ -90,18 +103,56 @@
   position: absolute;
   width: 196px;
   height: 62px;
-  left: 481px;
-  top: 700px;
+  left: 260px;
+  top: 796px;
+
   background: #8c30f5;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 0px;
   border-radius: 8px;
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
 }
 
 .Line {
   position: absolute;
-  width: 738px;
+  width: 482px;
   height: 0px;
-  left: 204px;
-  top: 300px;
+  left: 98px;
+  top: 360px;
 
   border: 1px solid #000000;
+}
+
+.btnText {
+  position: absolute;
+  width: 114px;
+  height: 30px;
+  left: calc(50% - 114px / 2);
+  top: calc(50% - 30px / 2);
+
+  /* Label / Large Label */
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
 }

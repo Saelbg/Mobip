@@ -13,7 +13,7 @@ class Landing extends React.Component {
             <div>boton1</div>
           </div>
         </div>
-        <h1 className="Title">MoBip</h1>
+        <h1 className="Title">MoBipp</h1>
         <div className="Line" />
         <p className="Paragraph">
           La nueva forma de moverse sosteniblemente por la ciudad, atraves de un
@@ -21,7 +21,7 @@ class Landing extends React.Component {
           transporte sin sacrificar tu comodidad.
         </p>
         <button id="btnKnowMore" className="Button" onClick={this.knowMore}>
-          Conoce mas!
+          Conoce mas
         </button>
         <div className="SidePanel"></div>
         <img className="Image" src={womanImage}></img>
