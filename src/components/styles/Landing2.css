@@ -124,3 +124,36 @@
     height: 300px;
   }
 }
+
+@media only screen and (max-width: 1440px) {
+  .image {
+    position: absolute;
+    width: 550px;
+    height: 650px;
+    left: 58%;
+    top: 26.7%;
+  }
+
+  .h1 {
+    position: absolute;
+    width: 557px;
+    height: 150px;
+    left: 4.8%;
+    top: 9.5%;
+  }
+  .button {
+    position: absolute;
+    width: 196px;
+    height: 62px;
+    left: 16.5%;
+    top: 80%;
+  }
+  .p {
+    position: absolute;
+    width: 482px;
+    height: 205px;
+    left: 6.5%;
+    /* left: 240px; */
+    top: 35%;
+  }
+}
