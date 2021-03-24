@@ -128,18 +128,19 @@
 @media only screen and (max-width: 1440px) {
   .image {
     position: absolute;
-    width: 550px;
-    height: 650px;
-    left: 58%;
+    width: 420px;
+    height: 520px;
+    left: 61%;
     top: 26.7%;
   }
 
   .h1 {
     position: absolute;
+    font-size: 85px;
     width: 557px;
     height: 150px;
-    left: 4.8%;
-    top: 9.5%;
+    left: 5%;
+    top: 2.5%;
   }
   .button {
     position: absolute;
@@ -154,6 +155,6 @@
     height: 205px;
     left: 6.5%;
     /* left: 240px; */
-    top: 35%;
+    top: 32%;
   }
 }
